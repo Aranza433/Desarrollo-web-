@@ -1,0 +1,68 @@
+/Estilos generales/
+
+body{
+  margin:8;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  transitions: background-color 0.5 ease;
+}
+
+.container, .container-fluid{
+  
+  border:4px solid 
+#FCC7BB;
+  padding: 20px;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.container img{
+  
+  max-width: 100%;
+  heigth: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+/MEDIA QUERIES/
+
+/PANTALLA PEQUEÑA/
+
+@media (max-width: 600px){
+  body{
+    background-color:#EDD2CC;
+    flex-direction: row;
+  }
+}
+
+/PANTALLA MEDIANA/
+
+@media (min-width: 600px){
+  body{
+    background-color:#FAF0CD;
+    flex-direction: column;
+  }
+}
+
+/PANTALLA GRANDE/
+
+@media (min-width: 899px){
+  body{
+    background-color:#BDBAAE;
+    flex-direction: column;
+  }
+}
+
+/PANTALLA EXTRA-GRANDE/
+
+@media (min-width: 1200px){
+  body{
+    background-color:#EDC7C0;
+    flex-direction: column;
+  }
+}
