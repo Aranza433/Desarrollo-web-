@@ -1,0 +1,51 @@
+body {
+  front-family: Arial, sans-serif;
+  Text-align:center;
+  margin:20px;
+}
+
+button {
+  margin:10px;
+  padding:8px 12px;
+  border-radius: 10px;
+  background:#E8C7C5;
+}
+
+button:hover{
+  background:#D9BBBA;
+}
+
+.contenedor{
+  display:flex;
+  justify-content:center;
+  margin:20px 0px;
+  gap:10px;
+}
+
+.caja{
+  width:80px;
+  height:80px;
+  background:#EDCEC7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:5px solid #DBAAA0;
+ border-radius:10px;
+}
+/Diseño para ajustar las imagenes/
+
+#galleryContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+#galleryContainer img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
